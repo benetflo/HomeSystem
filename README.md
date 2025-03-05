@@ -13,4 +13,5 @@ This is my Smart Home project, where I will be able to display the temperature i
 * Raspberry Pi 7" Touch Display 2
 * Powerbank x2
 * 4.7k Ω resistor x2 (optional)
+* Micro-USB -> Micro-USB-A cable x2
 * Jumper wires
