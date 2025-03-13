@@ -9,13 +9,25 @@
 
 # Thonny setup
 
+## STEP 1: Install Thonny
+- Go to https://thonny.org
+- Install latest version for your OS
+- Follow and complete the installation guide.
+- Open Thonny when the installation is finished
 
+# Pico W CircuitPython setup
+- Insert the USB-cable to your computer while holding down the BOOTSEL button on your Pico W.
+- Navigate to the lower right corner in Thonny and click on 'Interpreter' -> 'Install CircuitPython'.
+- Choose your Pico W as target (RPI-RP2).
+- Choose CircuitPython(generic) version.
+- Click 'Install' and wait for the process to finish.
+- You should now have a device named CIRCUITPY on your computer!
 
-# CircuitPython setup
-
-
-
-
+CIRCUITPY default files:
+* boot_out.txt - Displays CircuitPython version info.
+* code.py (or main.py) - The main script that runs automatically.
+* lib/ - For additional CircuitPython libraries. We will add files here later.
+* settings.toml - Optional file for Wi-Fi/network setting on Pico W.
 
 # DS18B20 Temperature Sensor setup
 
