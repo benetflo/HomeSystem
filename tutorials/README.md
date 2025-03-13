@@ -1,5 +1,10 @@
 # SETUP AND TUTORIAL
 
+## Requirements checklist:
+* CircuitPython setup
+* DS18B20 Temperature Sensor setup
+* Adafruit LTR390 UV Light Sensor setup
+
 
 # CircuitPython setup
 
@@ -7,31 +12,19 @@
 
 
 
-# DS18B20 Temperature Sensor
-
-## Requirements:
-* adafruit_onewire
-* adafruit_ds18x20.mpy
+# DS18B20 Temperature Sensor setup
 
 ## STEP 1: adafruit_onewire
 - Go to https://github.com/adafruit/Adafruit_CircuitPython_OneWire/releases
 - Download 'adafruit-circuitpython-onewire-9.x-mpy-2.0.9.zip'   !! This is what I am using. Download other version if you are using older or newer version.
 -  Add the onewire folder to your lib folder on the Pico W.
 
-Your lib folder should now look like this:
-
-* lib
-  * adafruit_onewire
-    - \_\_init\_\_.py
-    - device.mpy
-    - bus.mpy
-
 ## STEP 2: adafruit_ds18x20.mpy
 - Go to https://github.com/adafruit/Adafruit_CircuitPython_DS18X20/releases
 - Download 'adafruit-circuitpython-ds18x20-9.x-mpy-1.4.3.zip'  !! This is the version I am using. Download the right version for your system!
 - Add the 'adafruit_ds18x20.mpy' to your lib folder on the Pico W.
 
-Your lib folder should now look like this:
+The lib folder on Pico W should now look like this:
 
 * lib
   * adafruit_onewire
@@ -41,4 +34,35 @@ Your lib folder should now look like this:
   * adafruit_ds18x20.mpy
 
 # Adafruit LTR390 UV Light Sensor
+
+## STEP 1 adafruit_bus_device & adafruit_register:
+- Go to https://circuitpython.org/libraries
+- Download the zipfile 'Bundle for Version 9.x' (I am using this version but choose the version that matches your CircuitPython version).
+- Add the 'adafruit_bus_device' & 'adafruit_register' folders to your Pico W's lib folder. 
+
+## STEP 2 adafruit_ltr390.py
+- Go to https://github.com/adafruit/Adafruit_CircuitPython_LTR390
+- Download 'adafruit_ltr390.py'
+- Add 'adafruit_ltr390.py' to your Pico W's lib folder.
+
+The lib folder on Pico W should now look like this:
+
+* lib
+  * adafruit_bus_device
+    - i2c_device.mpy
+    - \_\_init\_\_.py
+    - spi_device.mpy
+  * adafruit_onewire
+    - \_\_init\_\_.py
+    - device.mpy
+    - bus.mpy
+  * adafruit_register
+    - i2c_bcd_alarm.mpy
+    - i2c_bcd_datetime.mpy
+    - i2c_bit.mpy
+    - i2c_bits.mpy
+    - i2c_struct.mpy
+    - i2c_struct_array.mpy
+  * adafruit_ds18x20.mpy
+  * adafruit_ltr390.py
 
