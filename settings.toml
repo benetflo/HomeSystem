@@ -1,0 +1,4 @@
+[network]
+# Configure Wi-Fi. Pico W supports Wi-Fi and will be used to communicate with MQTT broker  
+wifi_ssid = "your_wifi_name"
+wifi_password = "your_wifi_password"
