@@ -1,9 +1,14 @@
 # SETUP AND TUTORIAL
 
 ## Requirements checklist:
+* Thonny setup
 * CircuitPython setup
 * DS18B20 Temperature Sensor setup
 * Adafruit LTR390 UV Light Sensor setup
+
+
+# Thonny setup
+
 
 
 # CircuitPython setup
