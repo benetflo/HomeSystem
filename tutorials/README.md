@@ -9,7 +9,7 @@
 
 # Thonny setup
 
-## STEP 1: Install Thonny
+## Install Thonny
 - Go to https://thonny.org
 - Install latest version for your OS
 - Follow and complete the installation guide.
