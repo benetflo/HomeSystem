@@ -6,12 +6,11 @@ This is my Smart Home project, where I will be able to display the temperature i
 * Fog computing - Data from Pico devices is processed on Raspberry Pi 5
 
 
-## Hardware
-* Raspberry Pi Pico W x2
-* Raspberry Pi 5
-* DS18B20 Temperature Sensor x2
-* Raspberry Pi 7" Touch Display 2
-* Powerbank x2
-* 4.7k Ω resistor x2 (optional)
-* Micro-USB -> Micro-USB-A cable x2
-* Jumper wires
+## Hardware components on Pico W devices
+* DS18B20 Temperature Sensor x1
+* Adafruit LTR390 UV Light Sensor x1
+* Green LED x1
+* 220Ω resistor x1
+* Micro-USB cable x1
+* Jumper cables
+* Powerbank x1
