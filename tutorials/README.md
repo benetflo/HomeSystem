@@ -22,7 +22,7 @@ Your lib folder should now look like this:
 
 * lib
   * adafruit_onewire
-    - __init__.py
+    - \_\_init\_\_.py
     - device.mpy
     - bus.mpy
 
@@ -35,7 +35,7 @@ Your lib folder should now look like this:
 
 * lib
   * adafruit_onewire
-    - __init__.py
+    - \_\_init\_\_.py
     - device.mpy
     - bus.mpy
   * adafruit_ds18x20.mpy
