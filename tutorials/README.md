@@ -25,43 +25,43 @@
 - You should now have a device named CIRCUITPY on your computer!
 
 CIRCUITPY default files:
-* boot_out.txt - Displays CircuitPython version info.
-* code.py (or main.py) - The main script that runs automatically.
-* lib/ - For additional CircuitPython libraries. We will add files here later.
-* settings.toml - Optional file for Wi-Fi/network setting on Pico W.
+* *boot_out.txt* - Displays CircuitPython version info.
+* *code.py* (or *main.py*) - The main script that runs automatically.
+* *lib/* - For additional CircuitPython libraries. We will add files here later.
+* *settings.toml* - Optional file for Wi-Fi/network setting on Pico W.
 
 # DS18B20 Temperature Sensor setup
 
 ## STEP 1: adafruit_onewire
 - Go to https://github.com/adafruit/Adafruit_CircuitPython_OneWire/releases
-- Download 'adafruit-circuitpython-onewire-9.x-mpy-2.0.9.zip'   !! This is what I am using. Download other version if you are using older or newer version.
+- Download *adafruit-circuitpython-onewire-9.x-mpy-2.0.9.zip*   !! This is what I am using. Download other version if you are using older or newer version.
 -  Add the onewire folder to your lib folder on the Pico W.
 
 ## STEP 2: adafruit_ds18x20.mpy
 - Go to https://github.com/adafruit/Adafruit_CircuitPython_DS18X20/releases
-- Download 'adafruit-circuitpython-ds18x20-9.x-mpy-1.4.3.zip'  !! This is the version I am using. Download the right version for your system!
-- Add the 'adafruit_ds18x20.mpy' to your lib folder on the Pico W.
+- Download *adafruit-circuitpython-ds18x20-9.x-mpy-1.4.3.zip*  !! This is the version I am using. Download the right version for your system!
+- Add the *adafruit_ds18x20.mpy* to your lib folder on the Pico W.
 
 The lib folder on Pico W should now look like this:
 
 * lib
-  * adafruit_onewire
-    - \_\_init\_\_.py
-    - device.mpy
-    - bus.mpy
-  * adafruit_ds18x20.mpy
+  * *adafruit_onewire*
+    - *\_\_init\_\_.py*
+    - *device.mpy*
+    - *bus.mpy*
+  * *adafruit_ds18x20.mpy*
 
 # Adafruit LTR390 UV Light Sensor
 
 ## STEP 1 adafruit_bus_device & adafruit_register:
 - Go to https://circuitpython.org/libraries
 - Download the zipfile 'Bundle for Version 9.x' (I am using this version but choose the version that matches your CircuitPython version).
-- Add the 'adafruit_bus_device' & 'adafruit_register' folders to your Pico W's lib folder. 
+- Add the *adafruit_bus_device* & *adafruit_register* folders to your Pico W's lib folder. 
 
 ## STEP 2 adafruit_ltr390.py
 - Go to https://github.com/adafruit/Adafruit_CircuitPython_LTR390
-- Download 'adafruit_ltr390.py'
-- Add 'adafruit_ltr390.py' to your Pico W's lib folder.
+- Download *adafruit_ltr390.py*
+- Add *adafruit_ltr390.py* to your Pico W's lib folder.
 
 > The lib folder on Pico W should now look like this:
 > ```
@@ -86,12 +86,12 @@ The lib folder on Pico W should now look like this:
 > ```
 
 # MQTT files on Pico W setup
-The files you need are:
-* adafruit_ticks.py -> https://github.com/adafruit/Adafruit_CircuitPython_Ticks
-* adafruit_requests.mpy -> can be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
-* adafruit_connection_manager.py -> https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager
-* adafruit_minimqtt -> (folder) can also be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
-  - adafruit_minimqtt.mpy
-  - \_\_init\_\_.py
-  - matcher.mpy
+The files you need to add to your Pico's lib folder:
+* *adafruit_ticks.py* -> https://github.com/adafruit/Adafruit_CircuitPython_Ticks
+* *adafruit_requests.mpy* -> can be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
+* *adafruit_connection_manager.py* -> https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager
+* *adafruit_minimqtt* -> (folder) can also be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
+  - *adafruit_minimqtt.mpy*
+  - *\_\_init\_\_.py*
+  - *matcher.mpy*
 
