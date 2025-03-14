@@ -123,4 +123,4 @@ The files you need to add to your Pico's lib folder:
 > ├── adafruit_requests.mpy
 > ├── adafruit_ticks.py
 > ```
-NOTE: Make sure to fill in your Wi-Fi SSID and Wi-Fi password in *settings.toml*
+NOTE: Make sure you've filled in your Wi-Fi SSID and Wi-Fi password in *settings.toml* correctly!
