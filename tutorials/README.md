@@ -95,3 +95,31 @@ The files you need to add to your Pico's lib folder:
   - *\_\_init\_\_.py*
   - *matcher.mpy*
 
+> The lib folder on Pico W should now look like this:
+> ```
+> lib/
+> ├── adafruit_bus_device/
+> │   ├── i2c_device.mpy
+> │   ├── __init__.py
+> │   ├── spi_device.mpy
+> ├── adafruit_minimqtt/
+> │   ├── adafruit_minimqtt.mpy
+> │   ├── __init__.py
+> │   ├── matcher.mpy
+> ├── adafruit_onewire/
+> │   ├── __init__.py
+> │   ├── device.mpy
+> │   ├── bus.mpy
+> ├── adafruit_register/
+> │   ├── i2c_bcd_alarm.mpy
+> │   ├── i2c_bcd_datetime.mpy
+> │   ├── i2c_bit.mpy
+> │   ├── i2c_bits.mpy
+> │   ├── i2c_struct.mpy
+> │   ├── i2c_struct_array.mpy
+> ├── adafruit_connection_manager.py
+> ├── adafruit_ds18x20.mpy
+> ├── adafruit_ltr390.py
+> ├── adafruit_requests.mpy
+> ├── adafruit_ticks.py
+> ```
