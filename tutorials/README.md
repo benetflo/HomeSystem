@@ -63,33 +63,34 @@ The lib folder on Pico W should now look like this:
 - Download 'adafruit_ltr390.py'
 - Add 'adafruit_ltr390.py' to your Pico W's lib folder.
 
-The lib folder on Pico W should now look like this:
-
-* lib
-  * adafruit_bus_device
-    - i2c_device.mpy
-    - \_\_init\_\_.py
-    - spi_device.mpy
-  * adafruit_onewire
-    - \_\_init\_\_.py
-    - device.mpy
-    - bus.mpy
-  * adafruit_register
-    - i2c_bcd_alarm.mpy
-    - i2c_bcd_datetime.mpy
-    - i2c_bit.mpy
-    - i2c_bits.mpy
-    - i2c_struct.mpy
-    - i2c_struct_array.mpy
-  * adafruit_ds18x20.mpy
-  * adafruit_ltr390.py
+> The lib folder on Pico W should now look like this:
+> ```
+> lib/
+> ├── adafruit_bus_device/
+> │   ├── i2c_device.mpy
+> │   ├── __init__.py
+> │   ├── spi_device.mpy
+> ├── adafruit_onewire/
+> │   ├── __init__.py
+> │   ├── device.mpy
+> │   ├── bus.mpy
+> ├── adafruit_register/
+> │   ├── i2c_bcd_alarm.mpy
+> │   ├── i2c_bcd_datetime.mpy
+> │   ├── i2c_bit.mpy
+> │   ├── i2c_bits.mpy
+> │   ├── i2c_struct.mpy
+> │   ├── i2c_struct_array.mpy
+> ├── adafruit_ds18x20.mpy
+> ├── adafruit_ltr390.py
+> ```
 
 # MQTT files on Pico W setup
 The files you need are:
 * adafruit_ticks.py -> https://github.com/adafruit/Adafruit_CircuitPython_Ticks
 * adafruit_requests.mpy -> can be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
 * adafruit_connection_manager.py -> https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager
-* adafruit_minimqtt -> can also be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
+* adafruit_minimqtt -> (folder) can also be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
   - adafruit_minimqtt.mpy
   - \_\_init\_\_.py
   - matcher.mpy
