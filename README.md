@@ -1,6 +1,8 @@
 # SmartHomeSystem
 For more updates on this project, check out my [Medium blog](https://medium.com/@benji-IoT).
 
+# Do you want to recreate this project? Look under tutorials! :)
+
 ## Hardware components on Pico W devices
 * DS18B20 Temperature Sensor x1
 * Adafruit LTR390 UV Light Sensor x1
