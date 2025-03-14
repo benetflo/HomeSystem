@@ -5,6 +5,7 @@
 * CircuitPython setup
 * DS18B20 Temperature Sensor setup
 * Adafruit LTR390 UV Light Sensor setup
+* MQTT files on Pico W setup
 
 
 # Thonny setup
@@ -82,4 +83,14 @@ The lib folder on Pico W should now look like this:
     - i2c_struct_array.mpy
   * adafruit_ds18x20.mpy
   * adafruit_ltr390.py
+
+# MQTT files on Pico W setup
+The files you need are:
+* adafruit_ticks.py -> https://github.com/adafruit/Adafruit_CircuitPython_Ticks
+* adafruit_requests.mpy -> can be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
+* adafruit_connection_manager.py -> https://github.com/adafruit/Adafruit_CircuitPython_ConnectionManager
+* adafruit_minimqtt -> can also be found in zipfile downloaded in previous step from this website: https://circuitpython.org/libraries
+  - adafruit_minimqtt.mpy
+  - \_\_init\_\_.py
+  - matcher.mpy
 
