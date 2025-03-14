@@ -1,5 +1,5 @@
 # SmartHomeSystem
-For more updates on this project, check out my [Medium blog](https://medium.com/@yourusername).
+For more updates on this project, check out my [Medium blog](https://medium.com/@benji-IoT).
 
 ## Technologies and protocols
 * MQTT - Mosquitto hosted Raspberry Pi 5
