@@ -6,6 +6,7 @@
 * DS18B20 Temperature Sensor setup
 * Adafruit LTR390 UV Light Sensor setup
 * MQTT files on Pico W setup
+* MQTT Broker setup (Mosquitto)
 
 
 # Thonny setup
@@ -124,3 +125,5 @@ The files you need to add to your Pico's lib folder:
 > ├── adafruit_ticks.py
 > ```
 NOTE: Make sure you've filled in your Wi-Fi SSID and Wi-Fi password in *settings.toml* correctly!
+
+# MQTT Broker setup (Mosquitto)
