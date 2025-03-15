@@ -1,3 +1,5 @@
+# function to get temperature from temp_sensor
+
 import board
 from adafruit_onewire.bus import OneWireBus
 import adafruit_ds18x20
