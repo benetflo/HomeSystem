@@ -1,5 +1,5 @@
-import time
-import board
+# functions to connect and publish to mosquitto broker 
+
 import wifi
 import socketpool
 import adafruit_minimqtt.adafruit_minimqtt as MQTT
