@@ -21,9 +21,10 @@ while 1:
   light = str(uv_sensor.get_light()) or "N/A"
   uvi = str(uv_sensor.get_uvi()) or "N/A"
   uvs = str(uv_sensor.get_uvs()) or "N/A"
-  
+
+  # EVERY 5 MINUTES
   try:
-    # CONNECT TO CLIENT EVERY 5 MIN
+    # CONNECT TO CLIENT
     client = mqtt_func.connect_to_mqtt(broker, port)
 
     # PUBLISH TO TOPICS
